@@ -8,7 +8,8 @@ fields:
   - name: blocks_example
     type: blocks
     label: Blocks Example
-    template_types: []
+    template_types:
+    - portfolio-item
     config:
       min: 
       max: 
