@@ -2,17 +2,23 @@
 label: Project
 hide_body: false
 fields:
-- name: blocks
-  type: blocks
-  label: Blocks
-  template_types:
-  - project
-  - author
-  - journal
+- name: repeater_example
+  type: field_group_list
+  fields:
+  - name: blocks_example
+    type: blocks
+    label: Blocks Example
+    template_types: []
+    config:
+      min: 
+      max: 
+    description: blocks example here
   config:
     min: 
     max: 
-  description: blocks here
+    labelField: 
+  label: Repeater Example
+  description: repeater example here
 pages:
 - projects/3d-graff.md
 - projects/chelsea-landmark.md
